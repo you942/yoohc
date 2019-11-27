@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="lib/bootstrap/js/html5shiv.min.js"></script>
+    <script src="lib/bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/solution1.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/solution-sort.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+<header class="jc_header">
+</header>
+<section class="banner">
+    <img src="images/solution.jpg" alt="">
+    <span class="title">解决方案</span>
+</section>
+<section class="content">
+    <div class="list socontainer">
+        <div class="row">
+            <div class="col-xs-4  wow fadeInUp">
+                <a href="./solution-list.html"><img src="images/pack.png" alt="">
+                <span class="glyphicon glyphicon-gift"><br><p>包装管理</p></span></a>
+            </div>
+            <div class="col-xs-4  wow fadeInUp">
+                <a href="./solution-list.html"><img src="images/product.png" alt="">
+                    <span class="glyphicon glyphicon-wrench"><br><p>生产管理</p></span></a>
+            </div>
+            <div class="col-xs-4  wow fadeInUp">
+                <a href="./solution-list.html"><img src="images/zichan.png" alt="">
+                    <span class="glyphicon glyphicon-yen"><br><p>资产</p></span></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4  wow fadeInUp">
+                <a href="./solution-list.html"><img src="images/mendian.png" alt="">
+                    <span class="glyphicon glyphicon-home"><br><p>智慧门店</p></span></a>
+            </div>
+            <div class="col-xs-4  wow fadeInUp">
+                <a href="./solution-list.html"><img src="images/cangku.png" alt="">
+                    <span class="glyphicon glyphicon-oil"><br><p>仓库管理</p></span></a>
+            </div>
+            <div class="col-xs-4  wow fadeInUp">
+                <a href="./solution-list.html"><img src="images/celiang.png" alt="">
+                    <span class="glyphicon glyphicon-sort-by-order"><br><p>量体测量</p></span></a>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+
+</footer>
+
+<script src="lib/bootstrap/js/jquery-1.12.4.min.js"></script>
+<script>
+    $('.jc_header').load("page/header.html");
+    $('footer').load("page/footer.html");
+    $(window).load(function () {
+        $("#solution").parent().addClass("active");
+        $("#solution").parent().siblings().removeClass("active");
+    });
+</script>
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

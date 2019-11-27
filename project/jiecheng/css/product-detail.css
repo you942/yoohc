@@ -1,0 +1,27 @@
+.detail-content {
+    background-color: #efefef;
+
+    padding-top:40px;
+    padding-bottom: 60px;
+}
+.detail-content .col-xs-6:first-child {
+    text-align: center;
+}
+.detail-content span {
+    line-height:25px;
+}
+.detail-content h4 {
+    color: #333;
+    font-weight: 600;
+}
+.detail-content img {
+    width: 50%;
+    height: 50%;
+}
+@media (max-width: 768px) {
+    .detail-content .pim {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}

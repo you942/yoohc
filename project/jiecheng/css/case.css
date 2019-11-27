@@ -1,0 +1,19 @@
+.list-list .list-content span{
+    font-weight: 600;
+    color: #666;
+    margin: 20px 0;
+}
+.list-list .list-content a {
+    /*height: 300px;*/
+}
+@media (min-width: 768px) {
+    .list-list .list-sort .nav{
+        padding-left:154px;
+    }
+
+}
+@media (max-width: 768px) {
+    .list-list .list-sort .nav li {
+        margin: 15px;
+    }
+}

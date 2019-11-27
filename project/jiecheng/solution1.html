@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="lib/bootstrap/js/html5shiv.min.js"></script>
+    <script src="lib/bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/solution1.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+<header class="jc_header">
+</header>
+<section class="banner">
+    <img src="images/solution.jpg" alt="">
+    <span class="title">解决方案</span>
+</section>
+<section class="content">
+    <div class="sol_txt container">
+        <h2>包装管理</h2>
+        <h3>| 全自动化管理</h3>
+    <span><p>仓库管理条码解决方案在仓库管理中引入条码技术，对仓库的到货检验、入库、出库、调拨、移库移位、库存盘点等各个作业环节的数据进行自动化的数据采集，保证仓库28管理各个作业环节数据输入的效率和准确性，确保企业及时准确地掌握库存的真实数据，合理保持和控制企业库存。通过科学的编码，还可方便地进行物品的批次、保质期等进行管理。</p>
+
+【管理需求】<br>
+1) 传统的仓库系统内部 ,一般依赖于一个非自动化的、以纸张文件为基础的系统来记录、追踪进出的货物，以人为记忆实施仓库内部的管理。对于整个仓储区而言，人为因素的不确定性，导致劳动效率低下，人力资源严重浪费。<br>
+2) 随着库存品种及数量的增加以及出入库频率的剧增，传统的仓库作业模式严重影响正常的运行工作效率。而现有已经建立的计算机管理的仓库管理系统，随着商品流通的加剧，也难以满足仓库管理快速准确实时的要求。<br>
+3) 条码技术在解决了仓库作业人员的数据输入的自动化的同时，实现了数据的准确传输，确保仓库作业效率，有利于充分利用有限的仓库空间。<br>
+条码技术的应用为特点，实现仓库数据收集的自动化。利用物料的条码标识实现仓库作业的各个环节数据自动化采集，提升仓库作业尤其是仓库盘点的作业效率，提升仓库数据的准确性和及时性
+强调对物料的科学编码，实现不同的管理目标。强调对物料进行科学编码，以实现不同的管理目标，例如单品追踪、保质期管理、批次管理以及产品质量追溯等。<br>
+对仓库的库位进行科学编码，实现库位管理目标。对仓库的库位进行科学编码，用条码符号加以标识，并仓库作业的各个环节采集库位数据，同时导入管理系统 。有利于在大型仓库或多品种仓库种快速定位库存品所在的位置，实现先进先出的管理目标及仓库作业的效率。<br>
+对组装出库作业进行现场数据采集，实现组装作业的需求。
+
+</span>
+        <hr>
+        <h3>| 包装自动化定制型设备概况</h3>
+        <div class="row product">
+            <div class="col-sm-3 col-xs-6"><a href="#"><img src="images/dayin1.png" alt=""><span>Zebra GT800/820 <br> 桌面条码打印机 </span></a></div>
+            <div class="col-sm-3 col-xs-6"><a href="#"><img src="images/dayin2.png" alt=""><span>Zebra GT800/820 <br> 桌面条码打印机 </span></a></div>
+            <div class="col-sm-3 col-xs-6"><a href="#"><img src="images/dayin3.png" alt=""><span>Zebra GT800/820 <br> 桌面条码打印机 </span></a></div>
+            <div class="col-sm-3 col-xs-6"><a href="#"><img src="images/dayin4.png" alt=""><span>Zebra GT800/820 <br> 桌面条码打印机 </span></a></div>
+        </div>
+    </div>
+</section>
+<footer>
+
+</footer>
+
+<script src="lib/bootstrap/js/jquery-1.12.4.min.js"></script>
+<script>
+    $('.jc_header').load("page/header.html");
+    $('footer').load("page/footer.html");
+    $(window).load(function () {
+        $("#solution").parent().addClass("active");
+        $("#solution").parent().siblings().removeClass("active");
+    });
+</script>
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

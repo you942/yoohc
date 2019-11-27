@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3491b06-3272-4980-8b3e-294467138f8e" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="bootstrap" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RmLGiYh7eHJiXw6n4BSt7qJoA7" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\YHC\Desktop\jc\css" />
+      <recent name="D:\WebstormProjects\bootstrap\lib\bootstrap" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/lib/bootstrap/js" />
+      <recent name="C:\Users\YHC\Desktop\jc" />
+      <recent name="D:\WebstormProjects\bootstrap\lib\artTemplate" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3491b06-3272-4980-8b3e-294467138f8e" name="Default" comment="" />
+      <created>1566967213338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566967213338</updated>
+      <workItem from="1566967215158" duration="12057000" />
+      <workItem from="1567133884039" duration="8305000" />
+      <workItem from="1567388833063" duration="1957000" />
+      <workItem from="1567598293751" duration="136000" />
+      <workItem from="1567667295613" duration="1198000" />
+      <workItem from="1569055248357" duration="571000" />
+      <workItem from="1569056135025" duration="14000" />
+      <workItem from="1569236341434" duration="1644000" />
+      <workItem from="1569238040562" duration="1821000" />
+      <workItem from="1569241469028" duration="1454000" />
+      <workItem from="1569331850688" duration="927000" />
+      <workItem from="1569332836701" duration="10139000" />
+      <workItem from="1569382850021" duration="28203000" />
+      <workItem from="1569586366238" duration="9873000" />
+      <workItem from="1569675077988" duration="3023000" />
+      <workItem from="1569678536300" duration="1198000" />
+      <workItem from="1570104039730" duration="6621000" />
+      <workItem from="1570267235875" duration="8713000" />
+      <workItem from="1570291801714" duration="7000" />
+      <workItem from="1570351474480" duration="2223000" />
+      <workItem from="1570353773521" duration="9183000" />
+      <workItem from="1570364819373" duration="2413000" />
+      <workItem from="1570792247242" duration="2612000" />
+      <workItem from="1570795593760" duration="3781000" />
+      <workItem from="1570814319606" duration="684000" />
+      <workItem from="1570887755311" duration="6703000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/product-detail.html</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

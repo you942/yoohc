@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="lib/bootstrap/js/html5shiv.min.js"></script>
+    <script src="lib/bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/solution1.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/solution-list.css">
+    <link rel="stylesheet" href="css/case.css">
+    <link rel="stylesheet" href="css/product-list.css">
+</head>
+<body>
+<header class="jc_header">
+</header>
+<section class="banner">
+    <img src="images/product-banner.png" alt="">
+    <span class="title">产品中心</span>
+</section>
+<section class="product-content">
+    <div class="container">
+        <!-- Nav tabs -->
+        <ul class="nav nav-pills">
+            <li class="active"><a href="#dayin" aria-controls="home" data-toggle="tab">打印</a></li>
+            <li><a href="#profile" aria-controls="profile" data-toggle="tab">采集</a></li>
+            <li><a href="#messages" aria-controls="messages" data-toggle="tab">贴标</a></li>
+            <li><a href="#messages" aria-controls="messages" data-toggle="tab">耗材</a></li>
+      </span>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane active" id="dayin">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6"><a href="./product-detail.html"><span>Zebra GT800/820 <br> 桌面条码打印机 </span><img src="images/dayin1.png" alt=""></a></div>
+                    <div class="col-sm-3 col-xs-6"><a href="./product-detail.html"><span>Zebra GT800/820 <br> 桌面条码打印机 </span><img src="images/dayin2.png" alt=""></a></div>
+                    <div class="col-sm-3 col-xs-6"><a href="./product-detail.html"><span>Zebra GT800/820 <br> 桌面条码打印机 </span><img src="images/dayin3.png" alt=""></a></div>
+                    <div class="col-sm-3 col-xs-6"><a href="./product-detail.html"><span>Zebra GT800/820 <br> 桌面条码打印机 </span><img src="images/dayin4.png" alt=""></a></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6"><a href="#"><span>Zebra GT800/820 <br> 桌面条码打印机 </span><img src="images/dayin1.png" alt=""></a></div>
+                    <div class="col-sm-3 col-xs-6"><a href="#"><span>Zebra GT800/820 <br> 桌面条码打印机 </span><img src="images/dayin2.png" alt=""></a></div>
+                    <div class="col-sm-3 col-xs-6"><a href="#"><span>Zebra GT800/820 <br> 桌面条码打印机 </span><img src="images/dayin3.png" alt=""></a></div>
+                    <div class="col-sm-3 col-xs-6"><a href="#"><span>Zebra GT800/820 <br> 桌面条码打印机 </span><img src="images/dayin4.png" alt=""></a></div>
+                </div>
+                <span class="more">加载更多</span>
+            </div>
+            <div class="tab-pane" id="profile">...</div>
+            <div class="tab-pane" id="messages">...</div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+
+</footer>
+
+<script src="lib/bootstrap/js/jquery-1.12.4.min.js"></script>
+<script>
+    $('.jc_header').load("page/header.html");
+    $('footer').load("page/footer.html");
+    $(window).load(function () {
+        $("#product").parent().addClass("active");
+        $("#product").parent().siblings().removeClass("active");
+    });
+</script>
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

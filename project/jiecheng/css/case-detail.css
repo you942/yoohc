@@ -1,0 +1,30 @@
+
+
+.case-detail {
+    margin: 30px 0;
+}
+.case-detail h3{
+    color: #333;
+    text-align: center;
+    margin-bottom:40px;
+}
+.case-detail span {
+    line-height:28px;
+    font-size: 14px;
+}
+.case-detail hr {
+    border: none;
+    border-top: 1px dashed #b8b8b8;
+}
+.case-detail a {
+    text-decoration: none;
+    color: #666;
+}
+.case-detail a:hover{
+
+    color: #ddbf7a;
+}
+.case-detail .right {
+    float: right;
+    margin-top:-20px;
+}

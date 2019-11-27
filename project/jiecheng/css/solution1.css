@@ -1,0 +1,101 @@
+body{
+    color:#666;
+}
+/*img {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+.banner {
+    position: relative;
+}
+
+
+@media (max-width: 768px) {
+    .banner img {
+        width: 100%;
+        height: 200px;
+
+
+    }
+    .banner .title {
+        font-size: 36px;
+        color: rgb( 255, 255, 255 );
+        position: absolute;
+        left: 38%;
+        top: 30%;
+        z-index: 28;
+    }
+}@media (min-width: 768px) {
+    .banner img {
+        width: 100%;
+        height: 400px;
+
+
+    }
+    .banner .title {
+        font-size: 36px;
+        color: rgb( 255, 255, 255 );
+        line-height: 4;
+        position: absolute;
+        left: 46%;
+        top: 28%;
+        z-index: 28;
+    }
+
+}
+.content h2{
+    text-align: center;
+    color:#333;
+}
+@media (min-width: 1200px){
+    .socontainer{
+        width: 877px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}@media (min-width: 992px){
+    .socontainer{
+        width: 728px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}@media (min-width: 768px){
+    .socontainer{
+        width: 760px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+.sol_txt span {
+    font-size: 12px;
+    line-height:20px;
+
+}
+.sol_txt hr {
+    border:1px dashed #ccc;
+}
+.sol_txt .product {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.sol_txt .product img {
+    width: 100%;
+    height: 180px;
+}
+.sol_txt .product>div{
+    height: 100%;
+}
+.sol_txt .product a {
+    display: block;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+.sol_txt .product a:hover span{
+    color:#e2c890;
+}
+.sol_txt .product a span{
+    font-size: 18px;
+    color:#666;
+    font-weight: 700;
+}

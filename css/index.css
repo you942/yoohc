@@ -1,0 +1,50 @@
+body{
+	background-color: #4878e2;
+}
+.content {
+    margin: 180px auto 0;
+	text-align: center;
+}
+.content h1{
+    font-family: kelu;
+	color: #FFFFFF;
+	margin-bottom: 80px;
+	font-size: 80px;
+}
+.content .person{
+    text-align: center;
+}
+.content .person img{
+    border-radius: 50%;
+}
+.content .person span{
+	margin-top: 20px;
+    font-family: kelu;
+	color: #FFFFFF;
+	display: block;
+	font-size: 30px;
+}
+.content ul {
+	margin-top: 50px;
+}
+.content ul li{
+	border: 2px solid #fff;
+	display: inline-block;
+}
+.content ul li:hover{
+	box-shadow: 0 0 3px 3px #fff;
+}
+.content ul li:hover a{
+	color: #ccc;
+}
+.content ul li a{
+	color: #FFFFFF;
+	padding: 20px;
+	font-size: 30px;
+}
+.content .project{
+    color: #FFFFFF;
+}
+.content .resume{
+	color: #FFFFFF;
+}

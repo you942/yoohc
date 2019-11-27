@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="lib/bootstrap/js/html5shiv.min.js"></script>
+    <script src="lib/bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/solution1.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/product-detail.css">
+</head>
+<body>
+<header class="jc_header">
+</header>
+<section class="detail-content">
+    <div class="container">
+        <h5><a href="./index.html">首页</a> &nbsp;> &nbsp;产品中心</h5>
+        <br>
+        <div class="row">
+            <div class="col-sm-6 col-xs-12 pim wow fadeInUp">
+                <img src="images/detail.png" alt="">
+            </div>
+            <div class="col-sm-6 col-xs-12 wow fadeInUp">
+                <h4>Zebra GT800/820 桌面条码打印机 </h4>
+                <span>斑马Zebra GT800/820热敏/热转印桌面条码打印机提供的一系列高级功能能够满足各类中、低强度打印应用的要求。斑马Zebra GT800/820桌面条码打印机无需更换300米碳带以每秒127毫米的打印速度及支持快速标签打印的强大的32位处理器，助您显著提高工作效率。并支持更多图片和更多标签格式的大容量内存，让打印如您所愿··· <br>
+斑马Zebra GT800/820热敏/热转印桌面条码打印机秉承了Zebra产品固有的品质和耐用性，支持中文GB18030简体宋体和繁体和字体。通过选择三个连接接口和10/100以太网可轻松进行集成，而借助内置的 EPL™ 和强大的 ZPL® 编程语言则可实现与所有 Zebra打印机的兼容。</span>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+
+</footer>
+
+<script src="lib/bootstrap/js/jquery-1.12.4.min.js"></script>
+<script>
+    $('.jc_header').load("page/header.html");
+    $('footer').load("page/footer.html");
+    $(window).load(function () {
+        $("#product").parent().addClass("active");
+        $("#product").parent().siblings().removeClass("active");
+    });
+</script>
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
